@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.1.1",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
